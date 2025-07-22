@@ -19,3 +19,14 @@ if(teacherName == "Kalob "){
     console.log("Not equal");
 }
 
+const age = 18;
+if (age>=18){
+    console.log("I can vote");
+}
+else if(age>=21){
+    console.log("I can drink alchoholz");
+}
+else{
+    console.log("You cannot do anything");
+}
+
