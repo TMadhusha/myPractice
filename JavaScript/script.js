@@ -45,3 +45,31 @@ console.log(course.toLowerCase());
 let spacy="                lost of space        ";
 console.log(spacy);
 console.log(spacy.trim());
+
+const boolean = true;
+console.log(boolean);
+console.log(typeof(boolean));
+
+console.log(age);
+console.log(typeof(age));
+
+var myName="Madhusha";
+console.log(myName);
+console.log(typeof(myName));
+
+console.log(`My name is ${myName} and my age is ${age}`); //called template literal
+
+lst = [1,2,3,4.0,"Five",[]];
+console.log(lst);
+console.log(lst.push("This is new"));
+console.log(lst);
+
+//Array and loop
+arr=["One", "Two","Three","Four","Five"];
+for(let i=0;i<arr.length;i++){
+    console.log(i+ " = "+arr[i]);
+}
+
+//Selecting multiple DOM nodes
+const elements=document.querySelectorAll("li");
+console.log("")
